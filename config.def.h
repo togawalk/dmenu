@@ -11,10 +11,10 @@ static const char *prompt      = NULL;      /* -p  option; prompt to the left of
 static const char *colors[SchemeLast][2] = {
 	/*     fg         bg       */
 	[SchemeNorm] = { "#839496", "#002b36" },
-	[SchemeSel] = { "#eee8d5", "#2aa198"},
+	[SchemeSel] = { "#002b36", "#2aa198"},
 	[SchemeOut] = { "#000000", "#00ffff" },
 	[SchemeMid] = { "#839496", "#073642" },
-	[SchemeSelHighlight] = { "#fdf6e3", "#2aa198" },
+	[SchemeSelHighlight] = { "#073642", "#2aa198" },
 	[SchemeNormHighlight] = { "#2aa198", "#002b36" },
 
 };
