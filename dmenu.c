@@ -844,7 +844,9 @@ usage(void)
 {
 	fputs("usage: dmenu [-bfiv] [-l lines] [-h height] [-p prompt] [-fn font] [-m monitor]\n"
 	      "             [-nb color] [-nf color] [-sb color] [-sf color]\n"
-	      "             [-nhb color] [-nhf color] [-shb color] [-shf color] [-w windowid]\n", stderr);
+	      /* "             [-nhb color] [-nhf color] [-shb color] [-shf color] [-w windowid]\n", stderr); */
+	      "             [-nhb color] [-nhf color] [-shb color] [-shf color] [-w windowid]\n"
+	      "             [-F turn off fuzzy-matching] [-i case insensitive]\n", stderr);
 
 	exit(1);
 }
