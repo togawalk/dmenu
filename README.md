@@ -1,5 +1,11 @@
 # Dmenu
 
+## Installation
+
+```
+sudo make clean install && rm config.h
+```
+
 ## Patches:
 
 - dmenu-numbers - displays number of matched and total items in top right corner
